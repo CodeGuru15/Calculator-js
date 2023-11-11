@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-slate-700">
+    <div class="flex h-[100vh] w-full justify-center">
+      <div
+        class="my-auto h-[450px] w-[300px] rounded-lg border-2 bg-[url(https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&w=600)]"
+      >
+        <div class="flex h-[140px] justify-center">
+          <div
+            class="my-auto h-[100px] w-[270px] overflow-hidden break-all border px-2 py-1 text-right text-2xl text-white"
+          >
+            <p id="display"></p>
+            <p id="formula" class="text-3xl text-green-400"></p>
+          </div>
+        </div>
+        <div
+          class="grid h-[300px] grid-cols-4 grid-rows-5 justify-items-center gap-2"
+        >
+          <button
+            id="ac"
+            class="h-10 w-12 rounded-md bg-white/30 text-white backdrop-blur-3xl backdrop-brightness-200"
+          >
+            AC
+          </button>
+          <button
+            id="del"
+            class="h-10 w-12 rounded-md bg-white/30 text-white backdrop-blur-3xl backdrop-brightness-200"
+          >
+            DEL
+          </button>
+          <button
+            id="percent"
+            class="h-10 w-12 rounded-md bg-white/30 text-white backdrop-blur-3xl backdrop-brightness-200"
+          >
+            %
+          </button>
+          <button
+            id="divide"
+            class="h-10 w-12 rounded-md bg-white/30 text-white backdrop-blur-3xl backdrop-brightness-200"
+          >
+            /
+          </button>
+          <button
+            id="seven"
+            class="h-10 w-12 rounded-md bg-white/30 text-white backdrop-blur-3xl backdrop-brightness-200"
+          >
+            7
+          </button>
+          <button
+            id="eight"
+            class="h-10 w-12 rounded-md bg-white/30 text-white backdrop-blur-3xl backdrop-brightness-200"
+          >
+            8
+          </button>
+          <button
+            id="nine"
+            class="h-10 w-12 rounded-md bg-white/30 text-white backdrop-blur-3xl backdrop-brightness-200"
+          >
+            9
+          </button>
+          <button
+            id="mul"
+            class="h-10 w-12 rounded-md bg-white/30 text-white backdrop-blur-3xl backdrop-brightness-200"
+          >
+            x
+          </button>
+          <button
+            id="four"
+            class="h-10 w-12 rounded-md bg-white/30 text-white backdrop-blur-3xl backdrop-brightness-200"
+          >
+            4
+          </button>
+          <button
+            id="five"
+            class="h-10 w-12 rounded-md bg-white/30 text-white backdrop-blur-3xl backdrop-brightness-200"
+          >
+            5
+          </button>
+          <button
+            id="six"
+            class="h-10 w-12 rounded-md bg-white/30 text-white backdrop-blur-3xl backdrop-brightness-200"
+          >
+            6
+          </button>
+          <button
+            id="sub"
+            class="h-10 w-12 rounded-md bg-white/30 text-white backdrop-blur-3xl backdrop-brightness-200"
+          >
+            -
+          </button>
+          <button
+            id="one"
+            class="h-10 w-12 rounded-md bg-white/30 text-white backdrop-blur-3xl backdrop-brightness-200"
+          >
+            1
+          </button>
+          <button
+            id="two"
+            class="h-10 w-12 rounded-md bg-white/30 text-white backdrop-blur-3xl backdrop-brightness-200"
+          >
+            2
+          </button>
+          <button
+            id="three"
+            class="h-10 w-12 rounded-md bg-white/30 text-white backdrop-blur-3xl backdrop-brightness-200"
+          >
+            3
+          </button>
+          <button
+            id="add"
+            class="h-10 w-12 rounded-md bg-white/30 text-white backdrop-blur-3xl backdrop-brightness-200"
+          >
+            +
+          </button>
+          <button
+            id="zero"
+            class="h-10 w-12 rounded-md bg-white/30 text-white backdrop-blur-3xl backdrop-brightness-200"
+          >
+            0
+          </button>
+          <button
+            id="dzero"
+            class="h-10 w-12 rounded-md bg-white/30 text-white backdrop-blur-3xl backdrop-brightness-200"
+          >
+            00
+          </button>
+          <button
+            id="point"
+            class="h-10 w-12 rounded-md bg-white/30 text-white backdrop-blur-3xl backdrop-brightness-200"
+          >
+            .
+          </button>
+          <button
+            id="equal"
+            class="h-10 w-12 rounded-md bg-white/30 text-white backdrop-blur-3xl backdrop-brightness-200"
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="calculator.js"></script>
+  </body>
+</html>
